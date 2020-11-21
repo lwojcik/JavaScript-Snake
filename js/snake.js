@@ -654,8 +654,13 @@ SNAKE.Board = SNAKE.Board || (function() {
             elmLengthPanel.className = "snake-panel-component";
             elmLengthPanel.innerHTML = "Score: 0";
 
+            footerPanel = document.createElement("div");
+            footerPanel.className = "snake-footer-component";
+            footerPanel.innerHTML = "<a href='https://github.com/lukemnet/JavaScript-Snake'>GitHub</a>";
+
             elmWelcome = createWelcomeElement();
             elmTryAgain = createTryAgainElement();
+            elmWin = createWinElement();
             elmWin = createWinElement();
 
             SNAKE.addEventListener(elmContainer, "keyup", function(evt) {
@@ -670,6 +675,7 @@ SNAKE.Board = SNAKE.Board || (function() {
 
             elmContainer.appendChild(elmPlayingField);
             elmContainer.appendChild(elmLengthPanel);
+            elmContainer.appendChild(footerPanel);
             elmContainer.appendChild(elmWelcome);
             elmContainer.appendChild(elmTryAgain);
             elmContainer.appendChild(elmWin);
@@ -920,6 +926,7 @@ SNAKE.Board = SNAKE.Board || (function() {
             var pLabelTop = me.getBlockHeight() + fHeight + Math.round((bottomPanelHeight - 30)/2) + "px";
 
             elmLengthPanel.style.top = pLabelTop;
+            footerPanel.style.top = pLabelTop;
 
             me.grid = [];
             var numBoardCols = fWidth / me.getBlockWidth() + 2;
