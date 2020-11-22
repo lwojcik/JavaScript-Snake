@@ -1,7 +1,7 @@
 # JavaScript-Snake
 
 The following is a fork of [JavaScript-Snake](https://github.com/patorjk/JavaScript-Snake) by 
-[patorjk](https://github.com/patorjk) as used on [Lukem.net homepage](https://github.com/lukemnet/homepage).
+[patorjk](https://github.com/patorjk) used as an Easter egg on [Lukem.net](https://github.com/lukemnet/homepage).
 
 [Play online](https://snake.lukem.net)
 
