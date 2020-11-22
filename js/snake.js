@@ -1,7 +1,7 @@
 /*
 JavaScript Snake
-First version by Patrick Gillespie - I've since merged in a good number of github pull requests
-http://patorjk.com/games/snake
+Original author: Patrick Gillespie  + contributors - http://patorjk.com/games/snake
+Modifications by Łukasz Wójcik - https://www.lukem.net
 */
 
 /**
